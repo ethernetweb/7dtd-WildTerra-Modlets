@@ -1,16 +1,13 @@
 <wtmod>
   <append xpath="/items">
     <item name="resourceCopper">
+      <property name="Extends" value="resourceIronFragment"/>
       <property name="CustomIcon" value="resourceIronFragment"/>
       <property name="CustomIconTint" value="b87333"/>
-      <property name="HoldType" value="45"/>
-      <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
       <property name="Material" value="MresourceCopperFragment"/>
       <property name="Stacknumber" value="6000"/>
       <property name="EconomicValue" value="20"/>
       <property name="EconomicBundleSize" value="10"/>
-      <property name="Group" value="Resources"/>
       <property name="CraftingIngredientExp" value="2"/>
     </item>
 
@@ -18,30 +15,28 @@
       <property name="Extends" value="unit_iron"/>
       <property name="CustomIcon" value="resourceIronFragment"/>
       <property name="CustomIconTint" value="b87333"/>
-      <property name="Material" value="MresourceCopperFragment"/>
+      <property name="Material" value="Mcopper"/>
       <property name="CreativeMode" value="None"/>
     </item>
 
 
     <item name="resourceZinc">
-        <property name="CustomIcon" value="resourceIronFragment"/>
-        <property name="CustomIconTint" value="338888"/>
-        <property name="HoldType" value="45"/>
-        <property name="Meshfile" value="Items/Misc/sackPrefab"/>
-        <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-        <property name="Material" value="MresourceZincFragment"/>
-        <property name="Stacknumber" value="6000"/>
-        <property name="EconomicValue" value="20"/>
-        <property name="EconomicBundleSize" value="10"/>
-        <property name="Group" value="Resources"/>
-        <property name="CraftingIngredientExp" value="2"/>
+      <property name="Extends" value="resourceIronFragment"/>
+      <property name="CustomIcon" value="resourceIronFragment"/>
+      <property name="CustomIconTint" value="338888"/>
+      <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+      <property name="Material" value="MresourceZincFragment"/>
+      <property name="Stacknumber" value="6000"/>
+      <property name="EconomicValue" value="20"/>
+      <property name="EconomicBundleSize" value="10"/>
+      <property name="CraftingIngredientExp" value="2"/>
     </item>
 
     <item name="unit_zinc">
       <property name="Extends" value="unit_iron"/>
       <property name="CustomIcon" value="resourceIronFragment"/>
       <property name="CustomIconTint" value="338888"/>
-      <property name="Material" value="MresourceZincFragment"/>
+      <property name="Material" value="Mzinc"/>
       <property name="CreativeMode" value="None"/>
     </item>
 

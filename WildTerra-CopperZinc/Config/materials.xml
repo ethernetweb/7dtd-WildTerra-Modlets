@@ -4,6 +4,13 @@
       <property name="damage_category" value="metal"/>
       <property name="surface_category" value="metal"/>
       <property name="forge_category" value="copper"/>
+      <property name="Experience" value="4"/>
+    </material>
+
+    <material id="Mcopper">
+      <property name="damage_category" value="metal"/>
+      <property name="surface_category" value="metal"/>
+      <property name="forge_category" value="copper"/>
       <property name="Hardness" type="float" value="1"/>
       <property name="stepsound" value="metal"/>
       <property name="stability_glue" value="20"/>
@@ -13,6 +20,13 @@
     </material>
 
     <material id="MresourceZincFragment">
+      <property name="damage_category" value="stone"/>
+      <property name="surface_category" value="stone"/>
+      <property name="forge_category" value="zinc"/>
+      <property name="Experience" value="4"/>
+    </material>
+
+    <material id="Mzinc">
       <property name="damage_category" value="stone"/>
       <property name="surface_category" value="stone"/>
       <property name="forge_category" value="zinc"/>
