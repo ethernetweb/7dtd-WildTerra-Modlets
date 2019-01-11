@@ -1,17 +1,22 @@
 <wtmod>
-<!-- add copper and zinc to accepted forge materials -->
 <!--  <set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/@depth">2</set> -->
 <!--  <set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/grid/@rows">7</set> -->
 
+
+<!-- add 3rd input slot -->
+  <set xpath="/windows/window[@name='windowForgeInput']/@height">224</set>
+  <set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content']/grid/@rows">3</set>
+
+<!-- add copper and zinc to accepted forge materials -->
+  <append xpath="/windows/window[@name='windowForgeInput']/@materials_accepted">,copper,zinc</append>
   <remove xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']"/>
   <append xpath="/windows/window[@name='windowForgeInput']">
-    <rect name="content2" depth="0" pos="78, -49" width="150" height="224">
+    <rect name="content2" depth="0" pos="78, -49" width="148" height="224">
       <sprite depth="1" color="[mediumGrey]" type="sliced" on_press="true"/>
-      <grid rows="8" cols="1" pos="3,-3" cell_width="185" cell_height="30" repeat_content="true">
+      <grid rows="8" cols="1" pos="3,-3" cell_width="185" cell_height="28" repeat_content="true">
         <forge_material name="0"/>
       </grid>
     </rect>
   </append>
 
-  <append xpath="/windows/window[@name='windowForgeInput']/@materials_accepted">,copper,zinc</append>
 </wtmod>
