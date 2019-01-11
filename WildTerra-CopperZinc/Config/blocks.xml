@@ -1,4 +1,6 @@
 <wtmod>
+  <append xpath="/blocks/forge/property[@class='workstation']/property[@name='InputMaterials']/@value">,copper,zinc</append>
+
   <append xpath="/blocks">
     <block name="terrOreCopper">
       <property name="CustomIcon" value="terrOreLead"/>
