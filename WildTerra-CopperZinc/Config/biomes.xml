@@ -1,0 +1,89 @@
+<wtmod>
+  <append xpath="/worldgeneration/biomes/biome[@name='snow']/layers/layer[@depth='*']">
+    <resource blockname="terrOreCopper" prob="0.3100" rwgGenerationType="all"/>
+    <resource blockname="terrOreZinc" prob="0.3500" rwgGenerationType="all"/>
+  </append>
+
+  <append xpath="/worldgeneration/biomes/biome[@name='snow']/layers/layer[@depth='10']">
+    <resource blockname="terrOreCopper" prob="0.3100" rwgGenerationType="all"/>
+    <resource blockname="terrOreZinc" prob="0.3500" rwgGenerationType="all"/>
+  </append>
+
+  <append xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome/layers/layer[@depth='*']">
+    <resource blockname="terrOreCopper" prob="0.3100" rwgGenerationType="all"/>
+    <resource blockname="terrOreZinc" prob="0.3500" rwgGenerationType="all"/>
+  </append>
+
+  <append xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome/layers/layer[@depth='10']">
+    <resource blockname="terrOreCopper" prob="0.3100" rwgGenerationType="all"/>
+    <resource blockname="terrOreZinc" prob="0.3500" rwgGenerationType="all"/>
+  </append>
+
+
+
+  <append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/layers/layer[@depth='*']">
+    <resource blockname="terrOreZinc" prob="0.3500" rwgGenerationType="all"/>
+    <resource blockname="terrOreCopper" prob="0.3100" rwgGenerationType="all"/>
+  </append>
+
+  <append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/layers/layer[@depth='10']">
+    <resource blockname="terrOreZinc" prob="0.3500" rwgGenerationType="all"/>
+    <resource blockname="terrOreCopper" prob="0.3100" rwgGenerationType="all"/>
+  </append>
+
+  <append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome/layers/layer[@depth='*']">
+    <resource blockname="terrOreZinc" prob="0.3500" rwgGenerationType="all"/>
+    <resource blockname="terrOreCopper" prob="0.3100" rwgGenerationType="all"/>
+  </append>
+
+  <append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome/layers/layer[@depth='10']">
+    <resource blockname="terrOreZinc" prob="0.3500" rwgGenerationType="all"/>
+    <resource blockname="terrOreCopper" prob="0.3100" rwgGenerationType="all"/>
+  </append>
+
+
+
+  <append xpath="/worldgeneration/biomes/biome[@name='wasteland']/layers/layer[@depth='*']">
+    <resource blockname="terrOreZinc" prob="0.4" rwgGenerationType="all"/>
+    <resource blockname="terrOreCopper" prob="0.4" rwgGenerationType="all"/>
+  </append>
+
+  <append xpath="/worldgeneration/biomes/biome[@name='wasteland']/layers/layer[@depth='10']">
+    <resource blockname="terrOreZinc" prob="0.4" rwgGenerationType="all"/>
+    <resource blockname="terrOreCopper" prob="0.4" rwgGenerationType="all"/>
+  </append>
+
+  <append xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome/layers/layer[@depth='*']">
+    <resource blockname="terrOreZinc" prob="0.4" rwgGenerationType="all"/>
+    <resource blockname="terrOreCopper" prob="0.4" rwgGenerationType="all"/>
+  </append>
+
+  <append xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome/layers/layer[@depth='10']">
+    <resource blockname="terrOreZinc" prob="0.4" rwgGenerationType="all"/>
+    <resource blockname="terrOreCopper" prob="0.4" rwgGenerationType="all"/>
+  </append>
+
+
+
+  <append xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/layers/layer[@depth='*']">
+    <resource blockname="terrOreZinc" prob="0.3500" rwgGenerationType="all"/>
+    <resource blockname="terrOreCopper" prob="0.3100" rwgGenerationType="all"/>
+  </append>
+
+  <append xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/layers/layer[@depth='10']">
+    <resource blockname="terrOreZinc" prob="0.3500" rwgGenerationType="all"/>
+    <resource blockname="terrOreCopper" prob="0.3100" rwgGenerationType="all"/>
+  </append>
+
+
+
+  <append xpath="/worldgeneration/biomes/biome[@name='city']/layers/layer[@depth='*']">
+    <resource blockname="terrOreCopper" prob="0.3100" rwgGenerationType="all"/>
+    <resource blockname="terrOreZinc" prob="0.3500" rwgGenerationType="all"/>
+  </append>
+
+  <append xpath="/worldgeneration/biomes/biome[@name='city']/layers/layer[@depth='10']">
+    <resource blockname="terrOreCopper" prob="0.3100" rwgGenerationType="all"/>
+    <resource blockname="terrOreZinc" prob="0.3500" rwgGenerationType="all"/>
+  </append>
+</wtmod>

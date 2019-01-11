@@ -1,0 +1,64 @@
+<wtmod>
+  <append xpath="/blocks">
+    <block name="terrOreCopper">
+      <property name="CustomIcon" value="terrOreLead"/>
+      <property name="CustomIconTint" value="ffa0a0"/>
+      <property name="Material" value="MresourceCopperFragment"/>
+      <property name="Shape" value="Terrain"/>
+      <property name="Mesh" value="terrain"/>
+      <property name="Texture" value="316"/>
+      <property name="Weight" value="80"/>
+      <property name="ImposterExclude" value="true"/>
+      <drop event="Harvest" name="resourceCopper" count="30" tag="oreWoodHarvest"/>
+      <drop event="Harvest" name="resourceRockSmall" count="15" tag="oreWoodHarvest"/>
+      <drop event="Destroy" count="0"/>
+      <drop event="Fall" name="resourceCopper" count="15" prob="0.5" stick_chance="0"/>
+      <property name="CanMobsSpawnOn" value="true"/>
+      <property name="EconomicValue" value="5"/>
+      <property name="EconomicBundleSize" value="1"/>
+      <property name="SellableToTrader" value="false"/>
+      <property name="FilterTags" value="fterrain"/>
+      <property name="SortOrder1" value="d0l0"/>
+      <property name="SortOrder2" value="0050"/>
+      <property name="DisplayType" value="blockTerrain" />
+    </block>
+
+    <block name="terrOreZinc">
+      <property name="CustomIcon" value="terrOreCoal"/>
+      <property name="CustomIconTint" value="cccccc"/>
+      <property name="Material" value="MresourceZincFragment"/>
+      <property name="Shape" value="Terrain"/>
+      <property name="Mesh" value="terrain"/>
+      <property name="Texture" value="34"/>
+      <property name="ImposterExclude" value="true"/>
+      <drop event="Harvest" name="resourceZinc" count="30" tag="oreWoodHarvest"/>
+      <drop event="Harvest" name="resourceRockSmall" count="15" tag="oreWoodHarvest"/>
+      <drop event="Destroy" count="0"/>
+      <drop event="Fall" name="resourceZinc" count="20" prob="0.5" stick_chance="0"/>
+      <property name="CanMobsSpawnOn" value="true"/>
+      <property name="FilterTags" value="fterrain"/>
+      <property name="SortOrder1" value="d0l0"/>
+      <property name="SortOrder2" value="0050"/>
+      <property name="DisplayType" value="blockTerrain" />
+    </block>
+
+    <block name="terrOreGravelPlusCopper">
+      <property name="Extends" value="terrOreGravelPlusIron"/>
+      <drop event="Destroy" name="resourceCopper" count="1"/>
+      <property name="CreativeMode" value="None"/>
+    </block>
+
+    <block name="terrOreGravelPlusZinc">
+      <property name="Extends" value="terrOreGravelPlusIron"/>
+      <drop event="Destroy" name="resourceZinc" count="1"/>
+      <property name="CreativeMode" value="None"/>
+    </block>
+  </append>
+
+  <append xpath="/blocks/block[@name='terrStone']">
+    <drop event="Harvest" name="resourceCopper" count="1" tag="oreWoodHarvest"/>
+    <drop event="Harvest" name="resourceZinc" count="2" tag="oreWoodHarvest"/>
+    <drop event="Fall" name="resourceCopper" count="2" prob="0.23" stick_chance="0"/>
+    <drop event="Fall" name="resourceZinc" count="4" prob="0.23" stick_chance="0"/>
+  </append>
+</wtmod>

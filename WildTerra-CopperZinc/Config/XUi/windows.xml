@@ -1,0 +1,4 @@
+<wtmod>
+<!-- add copper and zinc to accepted forge materials -->
+  <set xpath="/windows/window[@name='windowForgeInput']/@materials_accepted">iron,brass,lead,glass,stone,clay,copper,zinc</set>
+</wtmod>

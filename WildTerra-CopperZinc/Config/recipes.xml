@@ -1,0 +1,24 @@
+<wtmod>
+  <append xpath="/recipes">
+    <recipe name="resourceCopper" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true">
+      <wildcard_forge_category />
+    </recipe>
+
+    <recipe name="resourceZinc" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true">
+      <wildcard_forge_category />
+    </recipe>
+
+
+    <recipe name="resourceScrapBrass" count="1" craft_area="forge" craft_tool="toolForgeCrucible" craft_time="1" craft_exp_gain="0" material_based="true">
+      <ingredient name="unit_copper" count="1"/>
+      <ingredient name="unit_zinc" count="7"/>
+    </recipe>
+
+<!-- todo: add this later
+    <recipe name="resourceTin" count="1" craft_area="forge" craft_tool="toolForgeCrucible" material_based="true">
+      <ingredient name="unit_copper" count="1"/>
+      <ingredient name="unit_lead" count="1"/>
+    </recipe>
+-->
+  </append>
+</wtmod>

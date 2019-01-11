@@ -1,0 +1,18 @@
+<wtmod>
+  <append xpath="/lootcontainers/lootgroup[@name='labEquipment']">
+    <item name="resourceCopper" count="10,20" prob="2"/>
+    <item name="resourceZinc" count="10,20" prob="2"/>
+<!-- add this later
+    <item name="resourceZinc" count="5,10" prob="1"/>
+-->
+  </append>
+
+<!-- collapsed forge -->
+  <append xpath="/lootcontainers/lootcontainer[@id='91']">
+    <item name="resourceCopper" count="20,60" prob="2"/>
+    <item name="resourceZinc" count="20,60" prob="2"/>
+<!-- add this later
+    <item name="resourceZinc" count="10,25" prob="1"/>
+-->
+  </append>
+</wtmod>
