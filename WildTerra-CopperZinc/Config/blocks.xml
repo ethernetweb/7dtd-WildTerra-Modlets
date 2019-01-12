@@ -3,9 +3,10 @@
 
   <append xpath="/blocks">
     <block name="terrOreCopper">
+      <property name="MaxDamage" value="300"/>
       <property name="CustomIcon" value="terrOreLead"/>
-      <property name="CustomIconTint" value="ffa0a0"/>
-      <property name="Material" value="MresourceCopperFragment"/>
+      <property name="CustomIconTint" value="b87333"/>
+      <property name="Material" value="Mcopper"/>
       <property name="Shape" value="Terrain"/>
       <property name="Mesh" value="terrain"/>
       <property name="Texture" value="316"/>
@@ -26,9 +27,10 @@
     </block>
 
     <block name="terrOreZinc">
+      <property name="MaxDamage" value="300"/>
       <property name="CustomIcon" value="terrOreCoal"/>
-      <property name="CustomIconTint" value="cccccc"/>
-      <property name="Material" value="MresourceZincFragment"/>
+      <property name="CustomIconTint" value="338888"/>
+      <property name="Material" value="Mzinc"/>
       <property name="Shape" value="Terrain"/>
       <property name="Mesh" value="terrain"/>
       <property name="Texture" value="34"/>
