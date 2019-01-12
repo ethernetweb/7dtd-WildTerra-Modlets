@@ -20,7 +20,7 @@
       <property name="HoldType" value="45"/>
       <property name="Meshfile" value="Items/Misc/sackPrefab"/>
       <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-      <property name="CustomIcon" value="resourceScrapIron"/>
+      <property name="CustomIcon" value="resourceIronFragment"/>
       <property name="CustomIconTint" value="b87333"/>
       <property name="Material" value="Mcopper"/>
       <property name="Stacknumber" value="30000"/>
