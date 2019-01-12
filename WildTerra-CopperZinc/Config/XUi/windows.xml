@@ -1,14 +1,20 @@
 <wtmod>
 <!--  <set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/@depth">2</set> -->
-<!--  <set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/grid/@rows">7</set> -->
 
 
 <!-- add 3rd input slot -->
-  <set xpath="/windows/window[@name='windowForgeInput']/@height">224</set>
+  <set xpath="/windows/window[@name='windowForgeInput']/@height">279</set>
+  <set xpath="/windows/window[@name='windowForgeInput']/sprite[@name='backgroundMain']/@height">228</set>
+  <set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content']/@height">223</set>
   <set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content']/grid/@rows">3</set>
 
 <!-- add copper and zinc to accepted forge materials -->
   <append xpath="/windows/window[@name='windowForgeInput']/@materials_accepted">,copper,zinc</append>
+  <set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/@height">223</set>
+  <set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/grid/@rows">8</set>
+  <set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']/grid/@cell_height">28</set>
+
+<!-- deprecated
   <remove xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2']"/>
   <append xpath="/windows/window[@name='windowForgeInput']">
     <rect name="content2" depth="0" pos="78, -49" width="148" height="224">
@@ -18,5 +24,6 @@
       </grid>
     </rect>
   </append>
+-->
 
 </wtmod>
