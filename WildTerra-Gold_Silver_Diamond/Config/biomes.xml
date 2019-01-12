@@ -1,0 +1,9 @@
+<wtmod>
+  <set xpath="/worldgeneration/biomes/biome/subbiome/layers/layer/resource[@blockname='terrOreSilver']/@prob">0.001</set>
+  <set xpath="/worldgeneration/biomes/biome/subbiome/layers/layer/resource[@blockname='terrOreGold']/@prob">0.0008</set>
+  <set xpath="/worldgeneration/biomes/biome/subbiome/layers/layer/resource[@blockname='terrOreDiamond']/@prob">0.0005</set>
+
+  <set xpath="/worldgeneration/biomes/biome/layers/layer/resource[@blockname='terrOreSilver']/@prob">0.001</set>
+  <set xpath="/worldgeneration/biomes/biome/layers/layer/resource[@blockname='terrOreGold']/@prob">0.0008</set>
+  <set xpath="/worldgeneration/biomes/biome/layers/layer/resource[@blockname='terrOreDiamond']/@prob">0.0005</set>
+</wtmod>
