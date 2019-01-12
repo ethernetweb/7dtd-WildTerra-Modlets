@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="Wild Terra - Backpack and Loot Drop Times"/>
+    <Description value="Increases the amount of time that your death backpack, loot you drop and packs that drop from entity loot, remain in the world."/>
+    <Author value="FringeRecall"/>
+    <Version value="1.0.0"/>
+    <Website value="https://wildterraonline.com"/>
+  </ModInfo>
+</xml>
