@@ -12,12 +12,12 @@ Special thanks to other modders for their contributions.
 
 giKoN, Pringlz46290, stasis78 - Assisted with making the Copper Zinc modlet functional.
 
+Deceptive Pastry - provided the basis for the ActionExp / auto-level skills.
+
 Snappy - Provided the base for solar cell and solar panel crafting.
 
 Guppycur - Provided the base for the "random get up time" of zombies.
 
 JaxTeller718 - Quite simply; just a great list of modlets along the same line of thought as Wild Terra.
 
-Deceptive Pastry - provided the basis for the ActionExp / auto-level skills.
-
-stedman420 - I learned something from his mods but honestly can't remember right now. Lol.
+stedman420 - For his HUD modlets :)
