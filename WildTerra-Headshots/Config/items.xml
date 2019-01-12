@@ -1,0 +1,36 @@
+<wtmod>
+<!-- make head shots actually mean something -->
+  <append xpath="/items/item[@name='gunToolNailgun']/effect_group[@name='Base Effects']">
+    <passive_effect name="DamageModifier" operation="perc_add" value="7.75,13" tier="1,6" tags="head"/>
+  </append>
+  <append xpath="/items/item[@name='gunCrossbow']/effect_group[@name='Base Effects']">
+    <passive_effect name="DamageModifier" operation="perc_add" value="7.75,13" tier="1,6" tags="head"/>
+  </append>
+  <append xpath="/items/item[@name='gunCompoundBow']/effect_group[@name='Base Effects']">
+    <passive_effect name="DamageModifier" operation="perc_add" value="7.75,13" tier="1,6" tags="head"/>
+  </append>
+  <append xpath="/items/item[@name='gunWoodenBow']/effect_group[@name='Base Effects']">
+    <passive_effect name="DamageModifier" operation="perc_add" value="5.75,10" tier="1,6" tags="head"/>
+  </append>
+  <append xpath="/items/item[@name='gun44Magnum']/effect_group[@name='Base Effects']">
+    <passive_effect name="DamageModifier" operation="perc_add" value="8.75,25" tier="1,6" tags="head"/>
+  </append>
+  <append xpath="/items/item[@name='gun44Magnum']/effect_group[@name='Base Effects']">
+    <passive_effect name="DamageModifier" operation="perc_add" value="8.75,25" tier="1,6" tags="head"/>
+  </append>
+  <append xpath="/items/item[@name='gunPumpShotgun']/effect_group[@name='Base Effects']">
+    <passive_effect name="DamageModifier" operation="perc_add" value="5.75,10" tier="1,6" tags="head"/>
+  </append>
+  <append xpath="/items/item[@name='gunSMG5']/effect_group[@name='Base Effects']">
+    <passive_effect name="DamageModifier" operation="perc_add" value="5.75,10" tier="1,6" tags="head"/>
+  </append>
+  <append xpath="/items/item[@name='gunAK47']/effect_group[@name='Base Effects']">
+    <passive_effect name="DamageModifier" operation="perc_add" value="6.75,17" tier="1,6" tags="head"/>
+  </append>
+  <append xpath="/items/item[@name='gunHuntingRifle']/effect_group[@name='Base Effects']">
+    <passive_effect name="DamageModifier" operation="perc_add" value="8.75,20" tier="1,6" tags="head"/>
+  </append>
+  <append xpath="/items/item[@name='gunMR10']/effect_group[@name='Base Effects']">
+    <passive_effect name="DamageModifier" operation="perc_add" value="9,25" tier="1,6" tags="head"/>
+  </append>
+</wtmod>
