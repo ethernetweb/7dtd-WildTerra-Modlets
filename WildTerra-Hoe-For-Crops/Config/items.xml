@@ -1,0 +1,9 @@
+<wtmod>
+  <!-- add the hoe property tag to the hoe... -->
+  <append xpath="/items/item[@name='meleeToolHoeIron']/property[@name='Tags']/@value">,hoe</append>
+
+  <!-- add a shit ton of dmg to 'crop' when using the hoe since we raised the crop hit points exponentially -->
+  <append xpath="/items/item[@name='meleeToolHoeIron']/effect_group[@name='Base Effects']">
+    <passive_effect name="DamageModifier" operation="perc_add" value="50" tags="crop"/>
+  </append>
+</wtmod>
