@@ -15,8 +15,12 @@
   <set xpath="/blocks/block[@name='plantedMushroom3Harvest']/property[@name='Collide']/@value">melee,hoe</set>
 
   <!-- test this directly with potatos instead of using extend from Masters to maybe make it work? Nope... -->
-  <set xpath="/blocks/block[@name='plantedPotato3Harvest']/property[@name='Material']/@value">Mcrops</set>
-  <set xpath="/blocks/block[@name='plantedPotato3HarvestPlayer']/property[@name='Material']/@value">Mcrops</set>
-  <set xpath="/blocks/block[@name='plantedPotato3Harvest']/property[@name='Collide']/@value">hoe</set>
-  <set xpath="/blocks/block[@name='plantedPotato3HarvestPlayer']/property[@name='Collide']/@value">hoe</set>
+  <append xpath="/blocks/block[@name='plantedPotato3Harvest']">
+    <property name="Material" value="Mcrops"/>
+    <property name="Collide" value="hoe"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedPotato3HarvestPlayer']">
+    <property name="Material" value="Mcrops"/>
+    <property name="Collide" value="hoe"/>
+  </append>
 </wtmod>
