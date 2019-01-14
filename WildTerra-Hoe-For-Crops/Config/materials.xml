@@ -2,8 +2,8 @@
   <!-- set new material with damage_category of crop to corellate with the block collide and item damage multiplier to handle MaxDamage -->
   <append xpath="/materials">
     <material id="Mcrops">
-      <property name="surface_category" value="plant"/>
       <property name="damage_category" value="crop"/>
+      <property name="surface_category" value="plant"/>
       <property name="particle_category" value="plant"/>
       <property name="forge_category" value="plants"/>
       <property name="Hardness" type="float" value="1"/>
