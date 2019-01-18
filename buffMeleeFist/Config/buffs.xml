@@ -1,0 +1,11 @@
+<test>
+  <append xpath="/buffs">
+    <buff name="buffWeaponsMeleeFists">
+      <stack_type value="ignore"/>
+      <duration value="0.5"/>
+      <effect_group>
+        <triggered_effect target="self" trigger="onSelfBuffStart" action="LogMessage" message="buffWeaponsMeleeFists"/>
+      </effect_group>
+    </buff>
+  </append>
+</test>
