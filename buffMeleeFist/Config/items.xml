@@ -1,8 +1,0 @@
-<test>
-  <append xpath="/items/item[@name='meleeHandPlayer']/effect_group[@name='Base Effects']">
-      <passive_effect name="BuffProcChance" operation="base_set" value="1" tags="buffWeaponsMeleeFists"/>
-  </append>
-  <append xpath="/items/item[@name='handPlayer']/effect_group[@name='Base Effects']">
-      <passive_effect name="BuffProcChance" operation="base_set" value="1" tags="buffWeaponsMeleeFists"/>
-  </append>
-</test>
