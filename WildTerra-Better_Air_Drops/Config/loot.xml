@@ -1,0 +1,15 @@
+<wt>
+	<!-- Make the airdrops not suck as much and give more realistic "support" -->
+	<append xpath="/lootcontainers/lootcontainer[@id='34']">
+		<item group="tools" prob="0.2"/>
+		<item group="sportingGoods" prob="0.25"/>
+		<item group="bicycleParts" prob="0.1"/>
+		<item group="herbalRecipes" prob="0.2"/>
+		<item name="foodCornBread" count="2,10" prob="0.3"/>
+		<item name="foodCornMeal" count="10,40" prob="0.3"/>
+		<item name="foodCropCorn" count="10,30" prob="0.5"/>
+		<item name="foodCropPotato" count="10,30" prob="0.5"/>
+		<item name="drinkJarBoiledWater" count="5,15" prob="0.8"/>
+		<item name="foodHoney" count="1,4" prob="0.4"/>
+	</append>
+</wt>
