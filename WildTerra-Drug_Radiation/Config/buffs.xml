@@ -1,0 +1,20 @@
+<wt>
+	<append xpath="/buffs">
+		<buff name="wtDrugPotassiumIodide" name_key="Potassium Iodide" description_key="Protection from radiation for 30 seconds." tags="drug" icon="ui_game_symbol_radiation" icon_color="25,220,25">
+			<stack_type value="ignore"/>
+			<duration value="30"/>
+			<effect_group>
+				<requirement name="HasBuff" buff="buffRadiation3"/>
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" target="self" buff="buffRadiation3"/>
+			</effect_group>
+		</buff>
+	</append>
+	
+	<insertBefore xpath="/buffs/buff[@name='buffRadiation3']/effect_group">
+		<requirement name="NotHasBuff" buff="wtDrugPotassiumIodide"/>
+	</insertBefore>
+	
+	<append xpath="/buffs/buff[@name='buffStatusCheck']/effect_group/triggered_effect[@buff='buffRadiation3']">
+		<requirement name="NotHasBuff" buff="wtDrugPotassiumIodide"/>
+	</append>
+</wt>

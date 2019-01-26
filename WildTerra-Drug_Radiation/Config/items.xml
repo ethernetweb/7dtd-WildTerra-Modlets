@@ -1,0 +1,36 @@
+<wt>
+	<append xpath="/items">
+		<item name="Potassium Iodide">
+			<property name="HoldType" value="16"/>
+			<property name="Meshfile" value="Items/Health/painkillersPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="CustomIcon" value="drugPainkillers"/>
+			<property name="CustomIconTint" value="d3c5bB"/>
+			<property name="Material" value="Morganic"/>
+			<property name="EconomicValue" value="120"/>
+			<property name="Stacknumber" value="50"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_painkillers"/>
+			</property>
+			<property name="ActionSkillGroup" value="Medicine"/>
+			<property name="CraftingSkillGroup" value="craftSkillScience"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Group" value="Science"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="wtDrugPotassiumIodide"/>
+			</effect_group>
+		</item>
+		
+		<item name="Iodine">
+			<property name="Extends" value="resourcePotassiumNitratePowder"/>
+			<property name="CustomIcon" value="resourceCoal"/>
+			<property name="CustomIconTint" value="4B3B37"/>
+			<property name="EconomicValue" value="50"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property name="CreativeMode" value="Player"/>
+		</item>
+	</append>
+</wt>

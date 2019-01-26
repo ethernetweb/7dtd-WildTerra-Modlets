@@ -1,0 +1,8 @@
+<wt>
+	<append xpath="/recipes">
+		<recipe name="Potassium Iodide" count="1" craft_area="ChemistryStation">
+			<ingredient name="resourcePotassiumNitratePowder" count="4"/>
+			<ingredient name="Iodine" count="2"/>
+		</recipe>
+	</append>
+</wt>

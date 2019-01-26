@@ -1,0 +1,5 @@
+<wt>
+	<append xpath="/blocks/block[@name='hangingMoss']">
+		<drop event="Harvest" name="Iodine" count="2" tag="oreWoodHarvest"/>
+	</append>
+</wt>
