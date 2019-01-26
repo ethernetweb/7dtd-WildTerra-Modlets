@@ -2,9 +2,9 @@
 <xml>
   <ModInfo>
     <Name value="Wild Terra - Potato Pine Forest"/>
-    <Description value="Adds a small amount of wild Potato to the Pine Forest Biome."/>
+    <Description value="Adds a small amount of wild Potato to the Pine Forest Biome, when picked they regrow."/>
     <Author value="FringeRecall"/>
-    <Version value="1.0.0"/>
+    <Version value="1.1.0"/>
     <Website value="https://wildterraonline.com"/>
   </ModInfo>
 </xml>

@@ -1,5 +1,5 @@
 <wtmod>
   <append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations">
-    <decoration type="block" blockname="plantedPotato3Harvest" prob=".0004"/>
+    <decoration type="block" blockname="plantedPotato3Harvest" prob=".00045"/>
   </append>
 </wtmod>

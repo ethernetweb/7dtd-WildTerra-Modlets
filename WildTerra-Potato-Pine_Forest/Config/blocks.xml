@@ -1,0 +1,5 @@
+<wt>
+	<append xpath="/blocks/block[@name='plantedPotato3Harvest']">
+		<property name="DowngradeBlock" value="plantedPotato1"/>
+	</append>
+</wt>
